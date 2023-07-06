@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: #000000;
+  background-color: var(--cor-12);
 }
 .header {
   display: flex;
@@ -7,11 +7,7 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  padding: 20px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+ padding: 20px 0;
 }
 
 .header-menu {
@@ -21,10 +17,8 @@
 }
 
 .header-menu a {
-  color: #ffffff;
   padding: 16px 0px;
   display: inline-block;
-  font-size: 18px;
   position: relative;
 }
 
@@ -33,7 +27,7 @@
   display: block;
   height: 2px;
   width: 0%;
-  background-color: #ffffff;
+  background-color: var(--cor-0);
   margin-top: 4px;
   transition: 0.3s;
   position: absolute;
@@ -50,12 +44,12 @@
   .header-menu a {
     font-family: "Poppins";
     font-weight: 400;
-    background: #111111;
+    background: var(--cor-11);
     padding: 12px 16px;
     border-radius: 4px;
   }
   .header-menu a:hover {
-    background-color: #2e2e2e;
+    background-color: var(--cor-10);
   }
   .header a::after {
     display: none;
